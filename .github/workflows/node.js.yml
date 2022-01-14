@@ -1,13 +1,13 @@
-name: Node Github CI
+name: Node.js CI
 
 on:
   push:
     branches:
-      - master
+    - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
+  my_job:
+    runs-on: ubuntu-18.04
     steps:
-    - run: npm run update
+    - name: Deploy
+      run: npm run update
