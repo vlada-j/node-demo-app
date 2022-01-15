@@ -19,6 +19,4 @@ jobs:
 
         script: |
           cd /home/node-demo-app/
-          git pull origin main
-          npm install --production
-          pm2 restart NodeDemo
+          npm run update
