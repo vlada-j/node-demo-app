@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/vlada-j/node-demo-app.git"
   },
-  "author": "",
+  "author": "<vladajanosevic@gmail.com> Vlada Janosevic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vlada-j/node-demo-app/issues"
