@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Deploy
-      uses: actions/setup-node@v1
       run: |
           cd ~/home/node-demo-app
           git pull origin main
