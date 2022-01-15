@@ -4,7 +4,7 @@ const app = express();
 let startServerTime = (new Date()).toISOString();
 
 app.get("/", function (req, res) {
-	return res.send(`<h1>Startovano: ${startServerTime}</h1>`);
+	return res.send(`<h1>Dobro dosli</h1><h2>Startovano: ${startServerTime}</h2>`);
 });
 
 app.listen(80, () => {
